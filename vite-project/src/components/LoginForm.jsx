@@ -10,7 +10,7 @@ function LoginForm() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3000/api/login", {
+      const res = await axios.post("https://pharmacy-project-1-5sb5.onrender.com/api/login", {
         email,
         password,
       });

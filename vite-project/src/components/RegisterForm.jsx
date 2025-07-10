@@ -11,7 +11,7 @@ function RegisterForm() {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3000/api/register", {
+      const res = await axios.post("https://pharmacy-project-1-5sb5.onrender.com/api/register", {
         name,
         email,
         password,
